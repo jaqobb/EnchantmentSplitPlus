@@ -1,4 +1,5 @@
 import net.mcparkour.migle.attributes.ApiVersion
+import net.mcparkour.migle.attributes.Command
 
 plugins {
 	`java-library`
@@ -33,13 +34,19 @@ migleBukkit {
 	main = "${project.group}.${project.name.toLowerCase().replace("-", "")}.${newName}Plugin"
 	version = project.version as String
 	apiVersion = ApiVersion.VERSION_1_14
-	depend = listOf()
-	softDepend = listOf()
-	loadBefore = listOf()
+	depend = listOf("WildChests")
 	description = project.description
 	author = "jaqobb"
 	website = "https://jaqobb.dev"
-	commands = mapOf()
+	commands = mapOf(
+		"convertenchantments" to Command(
+			description = "Converts all enchanted items inside a chest into enchanted books",
+			aliases = listOf("disenchant")
+		),
+		"sortenchantments" to Command(
+			description = "Sends all possible enchanted books inside a chest to their respective storage units"
+		)
+	)
 }
 
 repositories {
@@ -54,8 +61,14 @@ repositories {
 			includeGroup("net.md-5")
 		}
 	}
+	maven("https://jitpack.io/") {
+		content {
+			includeGroup("com.github.OmerBenGera")
+		}
+	}
 }
 
 dependencies {
 	compileOnly("org.spigotmc:spigot-api:1.14.4-R0.1-SNAPSHOT")
+	compileOnly("com.github.OmerBenGera:WildChestsAPI:b2")
 }

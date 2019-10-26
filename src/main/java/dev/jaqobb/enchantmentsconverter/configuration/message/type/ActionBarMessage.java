@@ -1,4 +1,4 @@
-package dev.jaqobb.skeletonspigot.configuration.message.type;
+package dev.jaqobb.enchantmentsconverter.configuration.message.type;
 
 import java.util.ArrayList;
 import java.util.Arrays;

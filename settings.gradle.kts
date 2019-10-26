@@ -1,1 +1,1 @@
-rootProject.name = "skeleton-spigot"
+rootProject.name = "enchantments-converter"

@@ -1,9 +1,9 @@
-package dev.jaqobb.skeletonspigot.configuration.message;
+package dev.jaqobb.enchantmentsconverter.configuration.message;
 
-import dev.jaqobb.skeletonspigot.configuration.Configuration;
-import dev.jaqobb.skeletonspigot.configuration.message.type.ActionBarMessage;
-import dev.jaqobb.skeletonspigot.configuration.message.type.ChatMessage;
-import dev.jaqobb.skeletonspigot.configuration.message.type.TitleMessage;
+import dev.jaqobb.enchantmentsconverter.configuration.Configuration;
+import dev.jaqobb.enchantmentsconverter.configuration.message.type.ActionBarMessage;
+import dev.jaqobb.enchantmentsconverter.configuration.message.type.ChatMessage;
+import dev.jaqobb.enchantmentsconverter.configuration.message.type.TitleMessage;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Messages extends Configuration {

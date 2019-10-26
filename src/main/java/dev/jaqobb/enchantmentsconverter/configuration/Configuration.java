@@ -1,4 +1,4 @@
-package dev.jaqobb.skeletonspigot.configuration;
+package dev.jaqobb.enchantmentsconverter.configuration;
 
 import java.io.File;
 import java.io.InputStream;

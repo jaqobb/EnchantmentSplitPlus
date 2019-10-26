@@ -1,10 +1,10 @@
-package dev.jaqobb.skeletonspigot;
+package dev.jaqobb.enchantmentsconverter;
 
-import dev.jaqobb.skeletonspigot.configuration.Configuration;
-import dev.jaqobb.skeletonspigot.configuration.message.Messages;
+import dev.jaqobb.enchantmentsconverter.configuration.Configuration;
+import dev.jaqobb.enchantmentsconverter.configuration.message.Messages;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class SkeletonSpigotPlugin extends JavaPlugin {
+public class EnchantmentsConverterPlugin extends JavaPlugin {
 
 	private Configuration configuration;
 	private Messages messages;

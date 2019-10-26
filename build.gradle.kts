@@ -7,7 +7,7 @@ plugins {
 
 group = "dev.jaqobb"
 version = "1.0.0"
-description = "Skeleton project for Spigot plugins"
+description = "Minecraft plugin that allows to convert enchanted items into enchanted books"
 
 java {
 	sourceCompatibility = JavaVersion.VERSION_1_8

@@ -1,5 +1,4 @@
-Enchantments Converter
-=========
+# Enchantments Converter
 
 Minecraft plugin that allows to convert enchanted items into enchanted books.
 
